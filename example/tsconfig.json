@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@pqthanh/expo-datawedge": ["../src/index"],
+      "@pqthanh/expo-datawedge/*": ["../src/*"]
+    }
+  }
+}

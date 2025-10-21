@@ -1,0 +1,9 @@
+{
+  "platforms": ["android"],
+  "apple": {
+    "modules": ["DataWedgeModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.datawedge.DataWedgeModule"]
+  }
+}
